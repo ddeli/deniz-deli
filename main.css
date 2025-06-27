@@ -1,0 +1,376 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #c4c4c4;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+p {
+  font-size: calc(14.5px + 0.3vw);
+}
+#job2 {
+  font-size: calc(27.5px + 0.9vw);
+  
+}
+.navbar {
+  /*background:#000000;*/
+  background-image: linear-gradient(
+    90deg,
+    rgb(36, 36, 36) 10%,
+    rgb(0, 0, 26) 80%
+  );
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  /* color: #000000; */
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.header {
+  padding: 50px;
+  margin-bottom: 0px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#photo_video_landing {
+  max-height: 250px;
+  background-image: url("images/landing_photo_video_small2.jpg");
+}
+#audio_landing {
+  max-height: 250px;
+  background-image: url("images/landing_music_production_small2.jpg");
+}
+#development_landing {
+  max-height: 250px;
+  background-image: url("images/landing_development2.jpg");
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.landing_link{
+  text-decoration: none!important;
+  color: #b4b4b4;
+  font-size: 3.25em;
+  line-height: 1.5;
+  font-size: calc(27.5px + 0.9vw);
+  
+}
+.landing_link:hover{
+  color: #b4b4b4!important;;
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  font-size: 5em;
+  color: #b4b4b4;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-top: auto;
+  text-align: center;
+}
+.description h5 {
+  color: #b4b4b4;
+  font-size: 3.25em;
+  line-height: 1.5;
+}
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+}
+.description button {
+  border: 1px solid #6ab446;
+  background: #6ab446;
+  border-radius: 0;
+  color: #fff;
+}
+.description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+.features {
+  /*margin: 4em auto;*/
+  padding: 3em;
+  position: relative;
+  border: 0px;
+}
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  /* 
+  override other styles to make responsive 
+  
+  width: 100%    !important;
+  height: auto   !important;
+    */
+}
+.video-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background: #dedec8;
+  padding: 4em 0;
+}
+.background-about {
+  background: #dedec8;
+  padding: 4em 0;
+}
+.team {
+  color: #5e5e55;
+  padding: 0 180px;
+}
+.team .card-columns {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
+.team .card {
+  background: none;
+  border: none;
+}
+.team .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.page-footer {
+  position: static;
+  /*background-color: #222;*/
+  background-image: linear-gradient(
+    90deg,
+    rgb(36, 36, 36) 10%,
+    rgb(0, 0, 26) 80%
+  );
+  color: #ccc;
+}
+.page-footer-contact {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #222;
+  color: #ccc;
+  border-width: 0px;
+}
+.footer-copyright {
+  border-width: 0px;
+  color: #666;
+  padding: 40px 0;
+}
+
+#about {
+  background: #e2e2e2;
+  margin-bottom: 0px;
+}
+.btn.btn-social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+.template-demo > .btn {
+  margin-right: 0.5rem !important;
+}
+
+.template-demo {
+  margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+  border-radius: 50px;
+}
+
+.btn-outline-facebook {
+  border: 1px solid #3b579d;
+  color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+  background: #3b579d;
+  color: #ffffff;
+}
+
+.btn-outline-youtube {
+  border: 1px solid #e52d27;
+  color: #e52d27;
+}
+
+.btn-outline-twitter {
+  border: 1px solid #2caae1;
+  color: #2caae1;
+}
+
+.btn-outline-dribbble {
+  border: 1px solid #ea4c89;
+  color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+  border: 1px solid #0177b5;
+  color: #0177b5;
+}
+
+.btn-outline-instagram {
+  border: 1px solid #dc4a38;
+  color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+  background: #2caae1;
+  color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+  background: #0177b5;
+  color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+.btn-outline-instagram:hover {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+/*Button cover*/
+
+.btn-facebook {
+  background: #3b579d;
+  color: #ffffff;
+}
+
+.btn-youtube {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+.btn-twitter {
+  background: #2caae1;
+  color: #ffffff;
+}
+.btn-dribbble {
+  background: #ea4c89;
+  color: #ffffff;
+}
+.btn-linkedin {
+  background: #0177b5;
+  color: #ffffff;
+}
+.btn-instagram {
+  background: #dc4a38;
+  color: #ffffff;
+}
+.btn-github {
+  background: #000000;
+  color: #ffffff;
+}
+.btn-gitlab {
+  background: #fc6d27;
+  color: #ffffff;
+}
+.btn-xing {
+  background: #126567;
+  color: #ffffff;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #2d4278;
+  color: #ffffff;
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus {
+  background: #c21d17;
+  color: #ffffff;
+}
+.btn-twitter:hover,
+.btn-twitter:focus {
+  background: #1b8dbf;
+  color: #ffffff;
+}
+.btn-dribbble:hover,
+.btn-dribbble:focus {
+  background: #e51e6b;
+  color: #ffffff;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+  background: #015682;
+  color: #ffffff;
+}
+
+.btn-xing:hover,
+.btn-xing:focus {
+  background: #0b3c3d;
+  color: #ffffff;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+  background: #bf3322;
+  color: #ffffff;
+}
+.btn-github:hover,
+.btn-github:focus {
+  background: #272727;
+  color: #ffffff;
+}
+.template-demo {
+  margin-right: 1.5rem !important;
+}
+
+#gitlabIcon {
+  color: white;
+}
