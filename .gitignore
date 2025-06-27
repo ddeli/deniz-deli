@@ -1,0 +1,12 @@
+.vscode/
+
+.DS_Store
+
+Thumbs.db
+ehthumbs.db
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
