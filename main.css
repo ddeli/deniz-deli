@@ -63,6 +63,7 @@
 
 html {
   background: #080807; /* dark base so canvas gradient never bleeds onto white */
+  overflow-x: hidden;
 }
 
 body {
@@ -75,6 +76,7 @@ body {
   font-weight: 300;
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -853,4 +855,35 @@ a:hover { color: var(--cream); }
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(22px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================
+   Mobile Optimisation (≤ 768 px)
+============================================ */
+@media (max-width: 768px) {
+
+  /* Remove all backdrop-filters — saves GPU compositing layers */
+  .navbar,
+  .bio-section,
+  .project-block,
+  .project-block.alt,
+  .project-card,
+  .dev-section-wrap,
+  .dev-section-wrap.alt,
+  .gallery-block,
+  .legal-section,
+  .site-footer {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Single-column card grid on narrow screens */
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Prevent accidental taps while scrolling over cards */
+  .project-card {
+    touch-action: manipulation;
+  }
 }
