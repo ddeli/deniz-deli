@@ -1,31 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
-    <title>Deniz Deli – Tonmeister · Mediengestalter · Entwickler · Berlin</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Deniz Deli – Tonmeister (UdK Berlin), staatlich geprüfter Mediengestalter Bild und Ton und Softwareentwickler.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <title>
+      Deniz Deli – Tonmeister · Mediengestalter · Entwickler · Berlin
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Deniz Deli – Tonmeister (UdK Berlin), staatlich geprüfter Mediengestalter Bild und Ton und Softwareentwickler."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
-
     <canvas id="canvas-bg"></canvas>
 
     <nav class="navbar navbar-expand-md sticky-top" data-bs-theme="dark">
       <div class="container-fluid px-4">
         <a class="navbar-brand" href="index.html">Deniz Deli</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Navigation öffnen">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Navigation öffnen"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-nav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="audio.html">Audio</a></li>
-            <li class="nav-item"><a class="nav-link" href="photo_video.html">Foto / Video</a></li>
-            <li class="nav-item"><a class="nav-link" href="development.html">Entwicklung</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="audio.html">Audio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photo_video.html">Foto / Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="development.html">Entwicklung</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -33,9 +59,15 @@
 
     <!-- Hero -->
     <header class="page-hero">
-      <video autoplay muted loop playsinline poster="images/landing_mobile_diffusor.jpg">
-        <source src="images/260412landing.webm" type="video/webm">
-        <source src="images/Landing.mp4" type="video/mp4">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="images/landing_mobile_diffusor.jpg"
+      >
+        <source src="images/260412landing.webm" type="video/webm" />
+        <source src="images/Landing.mp4" type="video/mp4" />
       </video>
       <div class="hero-overlay"></div>
       <div class="hero-content">
@@ -55,59 +87,105 @@
       <div class="container">
         <div class="row g-5 align-items-start">
           <div class="col-lg-4 col-md-5">
-            <img src="images/deniz_deli.jpg" class="bio-photo" alt="Deniz Deli">
+            <img
+              src="images/deniz_deli.jpg"
+              class="bio-photo"
+              alt="Deniz Deli"
+            />
           </div>
           <div class="col-lg-7 col-md-7 offset-lg-1">
-            <h2 class="bio-headline">Tonmeister, staatlich geprüfter Mediengestalter Bild und Ton und Softwareentwickler.</h2>
+            <h2 class="bio-headline">
+              Tonmeister, staatlich geprüfter Mediengestalter Bild und Ton und
+              Softwareentwickler.
+            </h2>
 
             <h3 class="bio-section-label">Qualifikationen</h3>
 
             <div class="bio-row">
               <span class="bio-year">2026</span>
-              <span class="bio-desc">Bachelor of Science Informatik · <a href="https://www.tu.berlin/">Technische Universität</a>, Berlin</span>
+              <span class="bio-desc"
+                >Bachelor of Science Informatik ·
+                <a href="https://www.tu.berlin/">Technische Universität</a>,
+                Berlin</span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2025</span>
-              <span class="bio-desc">Master of Music Tonmeister*in · <a href="https://www.udk-berlin.de/startseite/">Universität der Künste</a>, Berlin</span>
+              <span class="bio-desc"
+                >Master of Music Tonmeister*in ·
+                <a href="https://www.udk-berlin.de/startseite/"
+                  >Universität der Künste</a
+                >, Berlin</span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2020</span>
-              <span class="bio-desc">Bachelor of Music Tonmeister*in · <a href="https://www.udk-berlin.de/startseite/">Universität der Künste</a>, Berlin</span>
+              <span class="bio-desc"
+                >Bachelor of Music Tonmeister*in ·
+                <a href="https://www.udk-berlin.de/startseite/"
+                  >Universität der Künste</a
+                >, Berlin</span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2011</span>
-              <span class="bio-desc">Staatlich geprüfter Mediengestalter Bild und Ton (IHK) · <a href="https://www.dw.com">Deutsche Welle</a></span>
+              <span class="bio-desc"
+                >Staatlich geprüfter Mediengestalter Bild und Ton (IHK) ·
+                <a href="https://www.dw.com">Deutsche Welle</a></span
+              >
             </div>
 
             <h3 class="bio-section-label">Berufliche Erfahrung</h3>
 
             <div class="bio-row">
               <span class="bio-year">Seit 2025</span>
-              <span class="bio-desc">Softwareengineer · <a href="https://www.sep.de">SEP GmbH</a></span>
+              <span class="bio-desc"
+                >Software Engineer ·
+                <a href="https://www.sep.de">SEP GmbH</a></span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">Seit 2020</span>
-              <span class="bio-desc">Freiberuflicher Tonmeister und Mediengestalter</span>
+              <span class="bio-desc"
+                >Freiberuflicher Tonmeister und Mediengestalter</span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2024 – 2025</span>
-              <span class="bio-desc">Product Owner &amp; Junior Consultant IT Security · <a href="https://secobo.de/">Sec2do GmbH</a>, Berlin</span>
+              <span class="bio-desc"
+                >Product Owner &amp; Junior Consultant IT Security ·
+                <a href="https://secobo.de/">Sec2do GmbH</a>, Berlin</span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2023 – 2024</span>
-              <span class="bio-desc">Software Tester · <a href="https://secobo.de/">Sec2do GmbH</a>, Berlin</span>
+              <span class="bio-desc"
+                >Software Tester · <a href="https://secobo.de/">Sec2do GmbH</a>,
+                Berlin</span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2017 – 2022</span>
-              <span class="bio-desc">Werkstudent Tonmeister · <a href="https://www.staatsoper-berlin.de/de/">Staatsoper Unter den Linden</a></span>
+              <span class="bio-desc"
+                >Werkstudent Tonmeister ·
+                <a href="https://www.staatsoper-berlin.de/de/"
+                  >Staatsoper Unter den Linden</a
+                ></span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2015 – 2018</span>
-              <span class="bio-desc">IT Service Professional · <a href="https://www.noerr.com/">Noerr LLP</a></span>
+              <span class="bio-desc"
+                >IT Service Professional ·
+                <a href="https://www.noerr.com/">Noerr LLP</a></span
+              >
             </div>
             <div class="bio-row">
               <span class="bio-year">2011 – 2015</span>
-              <span class="bio-desc">Mediengestalter · <a href="https://www.dw.com">Deutsche Welle</a></span>
+              <span class="bio-desc"
+                >Mediengestalter ·
+                <a href="https://www.dw.com">Deutsche Welle</a></span
+              >
             </div>
           </div>
         </div>
@@ -121,7 +199,11 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <a href="audio.html" class="tile-link">
               <div class="tile-img-wrap">
-                <img src="images/musicprod.jpg" alt="Audio Produktionen" class="img-fluid">
+                <img
+                  src="images/musicprod.jpg"
+                  alt="Audio Produktionen"
+                  class="img-fluid"
+                />
               </div>
               <span class="tile-label">Audio Produktionen</span>
             </a>
@@ -129,7 +211,11 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <a href="photo_video.html" class="tile-link">
               <div class="tile-img-wrap">
-                <img src="images/photovideo.jpg" alt="Foto / Video" class="img-fluid">
+                <img
+                  src="images/photovideo.jpg"
+                  alt="Foto / Video"
+                  class="img-fluid"
+                />
               </div>
               <span class="tile-label">Foto / Video</span>
             </a>
@@ -137,7 +223,11 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <a href="development.html" class="tile-link">
               <div class="tile-img-wrap">
-                <img src="images/programming3.jpg" alt="Software Entwicklung" class="img-fluid">
+                <img
+                  src="images/programming3.jpg"
+                  alt="Software Entwicklung"
+                  class="img-fluid"
+                />
               </div>
               <span class="tile-label">Software Entwicklung</span>
             </a>
@@ -154,17 +244,43 @@
             <a class="footer-link" href="datenschutz.html">Datenschutz</a>
           </div>
           <div class="col-md-4 text-md-center">
-            <a class="footer-email" href="mailto:kontakt@deniz-deli.de">kontakt@deniz-deli.de</a>
+            <a class="footer-email" href="mailto:kontakt@deniz-deli.de"
+              >kontakt@deniz-deli.de</a
+            >
           </div>
           <div class="col-md-4 text-md-end">
-            <a class="btn-social" href="https://www.instagram.com/deniz_deli_berlin/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a class="btn-social" href="https://www.github.com/ddeli" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a class="btn-social" href="https://www.linkedin.com/in/deniz-deli-91aa45290" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a class="btn-social" href="https://www.xing.com/profile/Deniz_Deli085456" aria-label="Xing"><i class="fa-brands fa-xing"></i></a>
+            <a
+              class="btn-social"
+              href="https://www.instagram.com/deniz_deli_berlin/"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              class="btn-social"
+              href="https://www.github.com/ddeli"
+              aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              class="btn-social"
+              href="https://www.linkedin.com/in/deniz-deli-91aa45290"
+              aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn-social"
+              href="https://www.xing.com/profile/Deniz_Deli085456"
+              aria-label="Xing"
+              ><i class="fa-brands fa-xing"></i
+            ></a>
           </div>
         </div>
         <div class="footer-copy">
-          © <script>document.write(new Date().getFullYear())</script> Deniz Deli
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Deniz Deli
         </div>
       </div>
     </footer>
